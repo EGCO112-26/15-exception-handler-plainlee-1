@@ -64,12 +64,13 @@ do{
 		d=(double) x/y;
 		cout<< "The result is " <<d<<endl;
 
-		// int i;
-		// double* myarray;
-		// for(i=0;i<100000;i++){
-		// 	cout<<"Allocating memory...."<<i<<endl;
-		// 	myarray = new double[500000000];
-		// } //bad allocating memory
+		int i;
+		double* myarray;
+		for(i=0;i<100000;i++){
+			cout<<"Allocating memory...."<<i<<endl;
+			myarray = new double[500000000];
+		} //bad allocating memory
+		cout<<endl;
 
 		}
 
